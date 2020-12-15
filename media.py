@@ -14,19 +14,21 @@ class Movie:
 
 import media
 
-toy_story = media.Movie("Toy Story", "A story of a boy and his toys that come to life", "https://en.wikipedia.org/wiki/File:Toy_Story.jpg", "https://www.youtube.com/watch?v=wA_DGWIZh6U")
+toy_story = media.Movie("Toy Story", "A story of a boy and his toys that come to life", "https://upload.wikimedia.org/wikipedia/en/1/13/Toy_Story.jpg", "https://www.youtube.com/watch?v=wA_DGWIZh6U")
 
-print (toy_story.storyline)
+print(toy_story.storyline)
 
-avatar = media.Movie("Avatar","A marine on an alien planet","https://upload.wikimedia.org/wikipedia/en/b/b0/Avatar-Teaser-Poster.jpg","https://www.youtube.com/watch?v=lYbGEfoOUbs")
+toy_story.show_trailer()
 
-print (avatar.storyline)
+avatar = media.Movie("Avatar","A marine on an alien planet","https://upload.wikimedia.org/wikipedia/en/b/b0/Avatar-Teaser-Poster.jpg","https://www.youtube.com/watch?v=5PSNL1qE6VY&ab_channel=20thCenturyStudios")
+
+print(avatar.storyline)
 
 avatar.show_trailer()
 
 dredd = media.Movie("Dredd","A lone enforcer takes on a drug gang in a dystopian future","https://upload.wikimedia.org/wikipedia/en/1/16/Dredd2012Poster.jpg","https://www.youtube.com/watch?v=qVIba2N6MTA")
 
-print (dredd.title, dredd.storyline)
+print(dredd.title, dredd.storyline)
 
 dredd.show_trailer()
 
