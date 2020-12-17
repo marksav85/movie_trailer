@@ -14,11 +14,11 @@ class Movie:
 
 import media
 
-toy_story = media.Movie("Toy Story", "A story of a boy and his toys that come to life", "https://upload.wikimedia.org/wikipedia/en/1/13/Toy_Story.jpg", "https://www.youtube.com/watch?v=wA_DGWIZh6U")
+spongebob = media.Movie("The SpongeBob Movie: Sponge on the Run", "Spongebob and Patrick are on the run", "https://upload.wikimedia.org/wikipedia/en/3/38/The_SpongeBob_Movie_Sponge_on_the_Run.jpg", "https://www.youtube.com/watch?v=HfiH_526qhY&ab_channel=ParamountPictures")
 
-print(toy_story.storyline)
+print(spongebob.storyline)
 
-toy_story.show_trailer()
+spongebob.show_trailer()
 
 avatar = media.Movie("Avatar","A marine on an alien planet","https://upload.wikimedia.org/wikipedia/en/b/b0/Avatar-Teaser-Poster.jpg","https://www.youtube.com/watch?v=5PSNL1qE6VY&ab_channel=20thCenturyStudios")
 
@@ -32,7 +32,7 @@ print(dredd.title, dredd.storyline)
 
 dredd.show_trailer()
 
-movies = [toy_story, avatar, dredd]
+movies = [spongebob, avatar, dredd]
 
 fresh_tomatoes.open_movies_page(movies)
 
