@@ -2,10 +2,11 @@
 10/12/2020
 
 ### Project Title
-Movie Trailer
+Movie Trailer Viewer
 
 ### Description
-A program that outputs the title, storyline, movie cover and trailer of a specified movie when run
+A program that outputs the title, storyline, movie cover and trailer of 3
+awesome movies when run
 
 ### Files used
 fresh_tomatoes
